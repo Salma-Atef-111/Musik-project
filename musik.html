@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="img/music.png">
+
+  <!-- for icons -->
+
+  <script src="https://kit.fontawesome.com/0437f7f2f0.js" crossorigin="anonymous"></script>
+
+  <!-- for fonts (Montserrat) -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- for fonts (Raleway) -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <!-- my css -->
+  <link rel="stylesheet" href="css/musik.css">
+
+
+  <title>Musik Concert Landing Page (Community)</title>
+</head>
+
+<body>
+  <div class="bigcontiner">
+    <!-- start first div -->
+
+    <div class="firstdiv">
+      <!-- start nav bar -->
+      <nav class="navbar navbar-expand-xl navbar-light ">
+        <img src="img/Logo.png" alt="Logo" class="logo">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarWithDropdown"
+            aria-controls="navbarWithDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse show " id="navbarWithDropdown">
+            <ul class="navbar-nav" id="navbarlist">
+              <li class="nav-item ">
+                <a class="nav-link active text-white" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  SPEAKERS
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  SCHEDULE
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">CONTACT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#" id="btn">GET TICKETS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- end nav bar -->
+
+      <!-- start first contant -->
+      <div class="firstcontant">
+        <h1>The Best experience of <br>
+          <span id="musicspan">Music</span> in 2021
+        </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ligula <br>
+          placerat, eleifend ex non, vehicula libero. Suspendisse eget tellus lectus.</p>
+      </div>
+      <div class="buttonswatch">
+        <a href="#" class="btn2">Get Started</a>
+        <p><img src="img/Icons/Play.png" alt="play icon" id="pic">Watch Video </p>
+      </div>
+      <!-- end first contant -->
+
+      <!-- start countdown -->
+
+      <div id="countdown"></div>
+
+      <!-- end countdown -->
+    </div>
+
+    <!-- end first div -->
+
+    <!-- start second div -->
+
+    <div class="seconddiv">
+      <h4> <span id="spanEX">Explore</span> By Category</h4>
+      <div class="Categories">
+        <div class="firstcategory">
+          <img src="img/Icons/Dj Mixer.png" alt="icon" class="iconscategory">
+          <h3>Pop</h3>
+          <p>Duis nec sodales nibh.<br>
+            Proin lectus tortor,rutrum<br>
+            vel vulputate vitae</p>
+        </div>
+        <div class="secondcategory">
+          <img src="img/Icons/Bagpipes.png" alt="icon" class="iconscategory">
+          <h3>Folk</h3>
+          <p>Duis nec sodales nibh.<br>
+            Proin lectus tortor, rutrum<br>
+            vel vulputate vitae</p>
+        </div>
+        <div class="thirdcategory">
+          <img src="img/Icons/Saxophone.png" alt="icon" class="iconscategory">
+          <h3 class="colorchange1">Instrumental</h3>
+          <p class="colorchange2">
+            Duis nec sodales nibh.<br>
+            Proin lectus tortor, rutrum<br>
+            vel vulputate vitae</p>
+        </div>
+        <div class="fourthcategory">
+          <img src="img/Icons/Guitar.png" alt="icon" class="iconscategory">
+          <h3>Rock</h3>
+          <p>Duis nec sodales nibh.<br>
+            Proin lectus tortor,rutrum<br>
+            vel vulputate vitae</p>
+        </div>
+        <div class="fifthcategory">
+          <img src="img/Icons/Vector.png" alt="icon" class="iconscategory">
+          <h3>Jazz</h3>
+          <p>Duis nec sodales nibh.<br>
+            Proin lectus tortor,rutrum<br>
+            vel vulputate vitae</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- end second div -->
+
+    <!-- start third div -->
+    <div class="thirddiv">
+      <div class="imgs" style="position: relative;">
+        <img src="img/first.png" alt="first pic" id="firstpic">
+        <img src="img/second.png" alt="background pic" id="secondpic">
+      </div>
+      <div class="contant2">
+        <h2>About Musik</h2>
+        <p>Fusce justo mi, vehicula id arcu et, dapibus tristique lectus. Vivamus a elit <br>
+          sodales, tincidunt nunc non, maximus lacus. Fusce a augue sed dolor auctor <br>
+          iaculis vitae id mauris. Integer ut lectus non neque suscipit luctus. Mauris et <br>
+          erat id ipsum condimentum cursus. Sed tempus enim non massa mattis <br>
+          iaculis. In quis massa risus</p>
+        <button class="icon-button">
+          <span class="button-text">Learn More</span>
+          <span class="icon">
+            <img src="img/Icons/login.png" alt="icon">
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <!-- end third div -->
+
+    <!-- start div four -->
+
+    <div class="divfour">
+      <div class="contant3">
+        <h2>Singers</h2>
+        <p>Fusce justo mi, vehicula id arcu et, dapibus tristique lectus. Vivamus a elit <br>
+          sodales, tincidunt nunc non, maximus lacus. Fusce a augue sed dolor auctor <br>
+          iaculis vitae id mauris. Integer ut lectus non neque suscipit luctus. Mauris et <br>
+          erat id ipsum condimentum cursus. Sed tempus enim non massa mattis <br>
+          iaculis. In quis massa risus</p>
+        <button class="icon-button2">
+          <span class="button-text2">View All Singers</span>
+          <span class="icon2">
+            <img src="img/Icons/login.png" alt="icon">
+          </span>
+        </button>
+      </div>
+
+      <div class="imgs2">
+        <div class="groupimg1">
+          <img src="img/Img (3).png" alt="img1" id="img1">
+          <img src="img/Img (4).png" alt="img2" id="img2">
+        </div>
+        <div class="groupimg2">
+          <img src="img/Img (5).png" alt="img3" id="img3">
+          <img src="img/Img (6).png" alt="img4" id="img4">
+        </div>
+      </div>
+    </div>
+
+    <!-- end div four -->
+
+    <!-- start div five -->
+
+    <div class=divfive>
+      <h2>Event Schedule</h2>
+      <div class="tapbox">
+        <button class="tapbtn" onclick="showContent(0)">
+          <h3>Day 01</h3>
+          <h5>16 August</h5>
+        </button>
+        <button class="tapbtn" onclick="showContent(1)">
+          <h3>Day 02</h3>
+          <h5>17 August</h5>
+        </button>
+        <button class="tapbtn" onclick="showContent(2)">
+          <h3>Day 03</h3>
+          <h5>18 August</h5>
+        </button>
+        <div class="line"></div>
+      </div>
+      <br>
+      <br>
+      <div class="tableevent">
+        <table id="myTable">
+          <tr id="head">
+            <th>Time</th>
+            <th>Content</th>
+            <th colspan="2">Speakers</th>
+          </tr>
+          <tr>
+            <td class="time">11:00 AM to 12:00 PM</td>
+            <td class="contanttable">Vestibulum vel eros vel metus lacinia feugiat a <br> nec metus. </td>
+            <td>
+              <div class="cell-content">
+                <img src="img/Avatar (2).png" alt="image" class="cell-image">
+                <div class="text-content">
+                  <span class="main-text">Yui Ronald</span>
+                  <span class="sub-text">Booth:<span class="sub-textin"> 2F12</span> </span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="cell-content2">
+                <div class="text-content2">
+                  <span class="main-text2">Preview</span>
+                </div>
+                <img src="img/Icons/Play2.png" alt="" class="cell-image2">
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="time">12:00 PM to 03:00 PM</td>
+            <td class="contanttable">Duis nec sodales nibh. Proin lectus tortor,<br>
+              rutrum vel vulputate vitae, fringilla id magna. <br>
+              Vestibulum ornare eget urna nec pulvinar.<br>
+              Praesent porttitor convallis blandit. Fusce vel<br>
+              egestas dolor. Donec eu augue enim. Donec <br>
+              rutrum non lacus ac rhoncus. Morbi quis luctus<br>
+              leo, nec cursus ex. </td>
+            <td>
+              <div class="cell-content">
+                <img src="img/Avatar (1).png" alt="image" class="cell-image">
+                <div class="text-content">
+                  <span class="main-text">Bob John</span>
+                  <span class="sub-text">Booth: <span class="sub-textin">3G12</span> </span>
+                </div>
+              </div>
+              <div class="cell-content">
+                <img src="img/Avatar (2).png" alt="image" class="cell-image">
+                <div class="text-content">
+                  <span class="main-text">Yui Ronald</span>
+                  <span class="sub-text">Booth: <span class="sub-textin">2F12</span> </span>
+                </div>
+              </div>
+              <div class="cell-content">
+                <img src="img/Avatar (3).png" alt="image" class="cell-image">
+                <div class="text-content">
+                  <span class="main-text">Emma Satoshi</span>
+                  <span class="sub-text">Booth: <span class="sub-textin">2A35</span> </span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="cell-content2">
+                <div class="text-content2">
+                  <span class="main-text2" id="live">Live</span>
+                </div>
+                <img src="img/Icons/Live Camera.png" alt="" class="cell-image2">
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="time">03:00 PM to 04:00 PM</td>
+            <td class="contanttable">Vestibulum vel eros vel metus lacinia feugiat a <br> nec metus. </td>
+            <td>
+              <div class="cell-content">
+                <img src="img/Avatar (4).png" alt="image" class="cell-image">
+                <div class="text-content">
+                  <span class="main-text">Sasha Jackson</span>
+                  <span class="sub-text">Booth:<span class="sub-textin"> 2F18</span></span>
+                </div>
+              </div>
+              <div class="cell-content">
+                <img src="img/Avatar (5).png" alt="image" class="cell-image">
+                <div class="text-content">
+                  <span class="main-text">Diana Brock</span>
+                  <span class="sub-text">Booth:<span class="sub-textin">2F24</span></span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="cell-content2">
+                <div class="text-content2">
+                  <span class="main-text2">Upcoming</span>
+                </div>
+                <img src="img/Icons/Clock.png" alt="" class="cell-image2">
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <!-- end div five -->
+
+    <!-- start div six -->
+
+    <div class="divsex">
+      <h2>Choose a Tier that’s right for you</h2>
+      <div style="position: relative;">
+        <div class="boxs">
+          <div class="firstcard">
+            <h3>Basic</h3>
+            <h1>$100</h1>
+            <p class="top_p">1 Seat Available</p>
+            <p class="bottom_p">
+              Access to Wifi Router <br>
+              <br>
+              Free Food & Coffee
+            </p>
+            <div class="button3">
+              <a href="#" class="btn3">Get Tickets</a>
+            </div>
+          </div>
+          <div class="secondcard">
+            <h3>Standard</h3>
+            <h1>$150</h1>
+            <p class="top_p2">1 Seat Available</p>
+            <p class="center_p2">
+              Access to Wifi Router
+            </p>
+            <p class="bottom_p2">Free Food & Coffee</p>
+            <div class="button3">
+              <a href="#" class="btn3_2">Get Tickets</a>
+            </div>
+          </div>
+          <div class="thirdcard">
+            <h3>Premium</h3>
+            <h1>$200</h1>
+            <p>
+              2 Seat Available<br>
+              <br>
+              Access to Wifi Router <br>
+              <br>
+              Free Food & Coffee
+            </p>
+            <div class="button3">
+              <a href="#" class="btn3">Get Tickets</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- end div six -->
+
+      <!-- start div seven -->
+
+      <div class="divseven">
+        <h2>Our Sponsors</h2>
+        <div class="sponsors">
+          <div class="logos1">
+            <img src="img/Img (7).png" alt="logo">
+            <img src="img/Img (8).png" alt="logo">
+            <img src="img/Img (9).png" alt="logo">
+            <img src="img/Img (10).png" alt="logo">
+          </div>
+          <br>
+          <div class="logos2">
+            <img src="img/Img (11).png" alt="logo">
+            <img src="img/Img (12).png" alt="logo">
+            <img src="img/Img (13).png" alt="logo">
+            <img src="img/Img (14).png" alt="logo">
+          </div>
+        </div>
+        <div class="button_sponsor">
+          <button class="icon-button3">Become a Sponsor</button>
+        </div>
+      </div>
+
+      <!-- end div seven -->
+
+      <!-- start div eight -->
+
+      <div class="diveight">
+        <h2>Testimonials</h2>
+        <div class="carousel">
+          <div class="carousel__container">
+            <div class="carousel__item">
+              <div class="myquote" style="position: relative;">
+                <img src="img/Icons/Quotes1.png" alt="" class="quote5">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem <br>
+                  Ipsum has been the industry's standard dummy text ever since the 1500s, when an <br>
+                  unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <img src="img/Icons/Quotes2.png" alt="" class="quote6">
+              </div>
+              <div class="myuser" style="position: relative;">
+                <img src="img/Avatar (6).png" alt="" class="avatarimg">
+                <h4>Johnny Doe</h4>
+                <p>ipsum.com</p>
+              </div>
+            </div>
+            <div class="carousel__item">
+              <div class="myquote" style="position: relative;">
+                <img src="img/Icons/Quotes1.png" alt="" class="quote5">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem <br>
+                  Ipsum has been the industry's standard dummy text ever since the 1500s, when an <br>
+                  unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <img src="img/Icons/Quotes2.png" alt="" class="quote6">
+              </div>
+              <div class="myuser" style="position: relative;">
+                <img src="img/Avatar (8).png" alt="">
+                <h4>Myne Barack</h4>
+                <p>ipsum.com</p>
+              </div>
+            </div>
+            <div class="carousel__item">
+              <div class="myquote" style="position: relative;">
+                <img src="img/Icons/Quotes1.png" alt="" class="quote5">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem <br>
+                  Ipsum has been the industry's standard dummy text ever since the 1500s, when an <br>
+                  unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <img src="img/Icons/Quotes2.png" alt="" class="quote6">
+              </div>
+              <div class="myuser" style="position: relative;">
+                <img src="img/Avatar (7).png" alt="">
+                <h4>Ellie James</h4>
+                <p>ipsum.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- end div eight -->
+
+      <!-- start div nine -->
+
+      <div class="divnine">
+        <div class="container swiper">
+          <div class="slider-wrapper">
+            <h2>See our Best Shots</h2>
+            <div class="card-list swiper-wrapper">
+              <div class="card-item swiper-slide">
+                <img src="img/Img (15).png" alt="User Image" class="user-image">
+                <div class="contant4">
+                  <img src="img/Likes & Comments.png" alt="" class="likes-comment">
+                  <p class="user-name">Lorem Ipsum Amet</p>
+                  <p class="user-profession">#music #concert #conference #london #event
+                    <br> #artist #dj #soundtrack #dance
+                  </p>
+                </div>
+              </div>
+              <div class="card-item swiper-slide">
+                <img src="img/Img (16).png" alt="User Image" class="user-image">
+                <div class="contant4">
+                  <img src="img/Likes & Comments.png" alt="" class="likes-comment">
+                  <p class="user-name">Lorem Ipsum Amet</p>
+                  <p class="user-profession">#music #concert #conference #london #event
+                    <br> #artist #dj #soundtrack #dance
+                  </p>
+                </div>
+              </div>
+              <div class="card-item swiper-slide">
+                <img src="img/Img (17).png" alt="User Image" class="user-image">
+                <div class="contant4">
+                  <img src="img/Likes & Comments.png" alt="" class="likes-comment">
+                  <p class="user-name">Lorem Ipsum Amet</p>
+                  <p class="user-profession">#music #concert #conference #london #event
+                    <br> #artist #dj #soundtrack #dance
+                  </p>
+                </div>
+              </div>
+              <div class="card-item swiper-slide">
+                <img src="img/Img (18).png" alt="User Image" class="user-image">
+                <div class="contant4">
+                  <img src="img/Likes & Comments.png" alt="" class="likes-comment">
+                  <p class="user-name">Lorem Ipsum Amet</p>
+                  <p class="user-profession">#music #concert #conference #london #event
+                    <br> #artist #dj #soundtrack #dance
+                  </p>
+                </div>
+              </div>
+              <div class="card-item swiper-slide">
+                <img src="img/Img (19).png" alt="User Image" class="user-image">
+                <div class="contant4">
+                  <img src="img/Likes & Comments.png" alt="" class="likes-comment">
+                  <p class="user-name">Lorem Ipsum Amet</p>
+                  <p class="user-profession">#music #concert #conference #london #event
+                    <br> #artist #dj #soundtrack #dance
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide-button swiper-button-prev"></div>
+            <div class="swiper-slide-button swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+      <!-- end div nine -->
+
+      <!-- start div ten -->
+
+      <div class="divten">
+        <div class="div blue">
+          <h2>Contact us</h2>
+          <p>Have an inquiry? We’ll be happy to assist you</p>
+          <div class="phone">
+            <img src="img/Icons/Phone.png" alt="" class="iconscontact">
+            <h5>+92 333 6527366</h5>
+          </div>
+          <div class="email">
+            <img src="img/Icons/Email.png" alt="" class="iconscontact">
+            <h5>abuzer@greelogix.com</h5>
+          </div>
+          <div class="map">
+            <img src="img/Icons/Map Pin.png" alt="" class="iconscontact">
+            <h5>Plot 252, Block L Phase 2 Johar Town, Lahore, PK</h5>
+          </div>
+        </div>
+        <div class="div white">
+          <h3>Fill in your details</h3>
+          <form action="#" method="post" name="formsignin" onsubmit=" return validateForm()">
+            <fieldset>
+              <p>
+                <label for="name">Name</label>
+                <br>
+                <input type="text" id="name" name="user_name">
+                <br>
+                <span id="name-error" class="error-message"></span>
+              </p>
+
+              <p>
+                <label for="email">Email</label>
+                <br>
+                <input type="email" id="mail" name="user_email">
+                <br>
+                <span id="email-error" class="error-message"></span>
+              </p>
+              <p>
+                <label for="message">message</label>
+                <br>
+                <textarea id="message" name="user_massage"></textarea>
+                <br>
+                <span id="message-error" class="error-message"></span>
+              </p>
+              <input type="submit" value="Submit" name="Submit" id="btn6" />
+            </fieldset>
+          </form>
+        </div>
+      </div>
+      <!-- end div ten -->
+
+      <!-- start div eleven -->
+
+      <div class="diveleven">
+        <img src="img/Logo.png" alt="" class="logobottom">
+        <div class="lastfooter">
+          <div class="pagelinks">
+            <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">COMPANY</a></li>
+              <li><a href="#">BLOG</a></li>
+              <li><a href="#">CONTACT US</a></li>
+              <li><a href="#">SITMAP</a></li>
+            </ul>
+          </div>
+          <div class="social-links">
+            <img src="img/Social Links.png" alt="">
+            <p>© musik.com, 2021 </p>
+          </div>
+        </div>
+      </div>
+      <!-- end div eleven -->
+
+
+      <!------------------ end the project --------------------------->
+
+    </div>
+    <!-- js swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- java script -->
+    <script src="js/musik.js"></script>
+
+</body>
+
+</html>
